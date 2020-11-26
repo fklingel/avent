@@ -1,4 +1,5 @@
 // Array's containing the elements of the "ultimate insult generator: https://i.imgur.com/wqDtqUj.jpg
+window.onload = function(){ 
 var firstA =["lazy", "stupid","insecure", "idiotic", "slimy", "slutty", "smelly", "pompous", "communist", "dicknose", "pie-eating", "racist", "elitist", "white trash", "drug-loving", "butterface", "tone deaf", "ugly", "creepy"];
 
 var secondA =["douche", "ass", "turd", "rectum", "butt", "cock", "shit", "crotch", "bitch", "turd", "prick", "slut", "taint", "fuck", "dick", "boner", "shart", "nut", "sphincter"];
@@ -41,4 +42,4 @@ buttonClick.onclick = function() {
 buttonResetClick.onclick = function resetCompliment() {
     document.getElementById("complementArea").innerHTML = " ";  
 };
- 
+};
