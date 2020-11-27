@@ -26,7 +26,7 @@ buttonClick.onclick = function() {
   //adding complement back to the html
   var addCompliment = document.getElementById("complementArea");
  
-  var newMessage = "\n" + randFirstCapital + " " + randSecond + " " + randThird + "!\n" + "";
+  var newMessage = "\n" + randFirstCapital + " " + randSecond + "!\n" + "\n";
   
   complementArea.innerHTML = complementArea.innerHTML + newMessage;
   // after first compliment payed - button txt changes
