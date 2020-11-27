@@ -31,7 +31,7 @@ buttonClick.onclick = function() {
   complementArea.innerHTML = complementArea.innerHTML + newMessage;
   // after first compliment payed - button txt changes
   
-    buttonClick.innerHTML = "Je te complimenterai encore!";
+    buttonClick.innerHTML = "Je ne cesserai de te complimenter!";
 
 };
 
