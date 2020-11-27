@@ -1,11 +1,9 @@
 // Array's containing the elements of the "ultimate insult generator: https://i.imgur.com/wqDtqUj.jpg
 // Test
 window.onload = function(){ 
-var firstA =["lazy", "stupid","insecure", "idiotic", "slimy", "slutty", "smelly", "pompous", "communist", "dicknose", "pie-eating", "racist", "elitist", "white trash", "drug-loving", "butterface", "tone deaf", "ugly", "creepy"];
+var firstA =["somptueuse", "magnifique","sublime", "incroyable", "savante", "maligne", "audacieuse","radieuse" ,"talentueuse", "galante", "passionante", "formidable", "sympathique", "admirable", "intelligente", "habile", "époustouflante", "ingénieuse", "passionante", "captivante", "chaleureuse", "brave", "audacieuse", "amusante", "pétillante", "divine", "vaillante"];
 
-var secondA =["douche", "ass", "turd", "rectum", "butt", "cock", "shit", "crotch", "bitch", "turd", "prick", "slut", "taint", "fuck", "dick", "boner", "shart", "nut", "sphincter"];
-
-var thirdA =["pilot", "canoe", "captian", "pirate", "hammer", "knob", "box", "jockey", "nazi", "waffle", "goblin", "blossom", "biscuit", "clown", "socket", "monster", "hound", "dragon", "balloon"];
+var secondA =["femme", "amante", "déesse", "reine", "princesse", "vétérinaire", "nageuse", "coureuse", "gemme", "pépite", "biche", "étoile", "source de bonheur", "compagne", "partenaire", "sauveuse d'animaux", "lumière de ma vie", "épaule sur laquelle se reposer", "sainte", "inspiration", "génie", "merveille de mon monde", "perle", "gardienne de mes rêves", "nantaise"];
 
 var buttonClick = document.getElementById("complimentGenerator");
 
@@ -17,8 +15,6 @@ buttonClick.onclick = function() {
   var randFirst = firstA[Math.floor(Math.random() * firstA.length)];
 
   var randSecond = secondA[Math.floor(Math.random() * secondA.length)];
-
-  var randThird = thirdA[Math.floor(Math.random() * thirdA.length)];
   
   // capitalizing the first letter
   String.prototype.capitalize = function() {
@@ -35,7 +31,7 @@ buttonClick.onclick = function() {
   complementArea.innerHTML = complementArea.innerHTML + newMessage;
   // after first compliment payed - button txt changes
   
-    buttonClick.innerHTML = "I shall compliment you a second time!";
+    buttonClick.innerHTML = "Je te complimenterai encore!";
 
 };
 
