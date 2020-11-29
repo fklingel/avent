@@ -583,6 +583,7 @@
       -ms-transform-origin: 100% 100%;
       transform-origin: 100% 100%;
       margin-left: -50%;
+      margin-bottom: 10%;
   }
   
   #abeille img {
